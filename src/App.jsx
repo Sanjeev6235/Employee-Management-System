@@ -4,7 +4,6 @@ import EmployeeDashboard from './components/Dashboard/EmployeeDashboard/Employee
 import AdminDashboard from './components/Dashboard/AdminDashboard/AdminDashboard'
 import { getLocalStorage, setLocalStorage } from './utils/LocalStorage'
 import { AuthContext } from './Context/AuthProvider'
-import Background from 'three/src/renderers/common/Background.js'
 
 function App() {
   const [user, setUser] = useState(null)

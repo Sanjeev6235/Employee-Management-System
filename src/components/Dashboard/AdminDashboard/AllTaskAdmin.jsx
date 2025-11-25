@@ -26,7 +26,7 @@ function AllTaskAdmin() {
           )
         })
         }
-    </div>/
+    </div>
     </div>
   )
 }
