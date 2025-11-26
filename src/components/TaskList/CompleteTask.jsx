@@ -2,7 +2,7 @@ import React from 'react'
 
 const CompleteTask = ({data}) => {
   return (
-    <div className='w-[26%] h-90 bg-red-400 rounded-2xl px-6 py-4 flex flex-col shrink-0 gap-2'>
+    <div className='w-[26%] h-90 bg-[#E879F9] rounded-2xl px-6 py-4 flex flex-col shrink-0 gap-2'>
         <div className='h-10 flex items-center justify-between'>
           <p className='bg-red-500 px-2'>{data.taskCategory}</p>
           <p>{data.taskDate}</p>
